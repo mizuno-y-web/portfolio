@@ -1,10 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>github</title>
+<meta charset="UTF-8">
+<title>水野雄太のポートフォリオ</title>
+<meta name="description" content="水野雄太のポートフォリオ トップページ">
+<meta name="viewport" content="width=device-width, initial=scale=1" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
 </head>
-<body>
-  <h1>rensyuaaa</h1>
+
+<body id="top">
+<!---------- header ---------->
+<header class="header">
+		<div class="header__top">
+		</div>
+</header>
+	
+<!---------- about ---------->
+  <section class="nav__tabs">
+		<p><span>元看板デザイナー</span></p>
+    <h1>水野雄太のポートフォリオ</h1>
+    
+    <div class="scroll"><span></span></div>
+    
+		<div class="nav__tabs__container">
+      <a class="nav__tab" href="#tab__web">WEB</a>
+      <a class="nav__tab" href="#tab__work">WORK</a>
+      <a class="nav__tab" href="#tab__photo">PHOTO</a>
+      <a class="nav__tab" href="#tab__other">OTHER</a>
+      <a class="nav__tab" href="#tab__about">ABOUT</a>
+      <span class="nav__tab__slider"></span>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="slide">
+    <section class="slide__wrap" id="tab__web">
+      <h2>WEB</h2>
+      <h3>デザインからコーディングまで</h3>
+      <div class="slide__list modal-inner" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+        <!-- サムネイル -->
+        <a href="#" class="slide__item openModal1"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item openModal1"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item openModal1"><img src="imgs/dummy.jpg" alt=""></a>
+      </div>
+      <!-- モーダル部分 -->
+      <div class="modalArea1"><!-- class名をmodalAreaで統一 -->
+              <div class="modalBg"></div><!-- モーダルの背景-->
+              <div class="modalWrapper"><!-- モーダルの中身 -->
+                  <div class="modalContents">
+                    <h1>contents!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  </div>
+                  <div class="closeModal">×</div>
+              </div>
+          </div>
+          <div class="modalArea1">
+            <div class="modalBg"></div><!-- モーダルの背景-->
+            <div class="modalWrapper"><!-- モーダルの中身 -->
+                <div class="modalContents">
+                    <h1>modal contents!2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="closeModal">×</div>
+            </div>
+           </div>
+           <div class="modalArea1">
+                <div class="modalBg"></div><!-- モーダルの背景-->
+                <div class="modalWrapper"><!-- モーダルの中身 -->
+                    <div class="modalContents">
+                        <h1>modal contents!3</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa<br>aaaaa<br>aaaaa<br>aaaaa<br>aaaaa<br>aaaaa </p>
+                    </div>
+                    <div class="closeModal">×</div>
+                </div>
+           </div>
+          <!-- モーダル部分ここまで -->
+    </section>
+    <section class="slide__wrap modal-inner" id="tab__work">
+      <h2>WORK</h2>
+      <h3>これまでの仕事で制作した実績</h3>
+      <div class="slide__list" data-aos="fade-up" data-aos-duration="800">
+			  <!-- サムネイル -->
+        <a href="#" class="slide__item openModal2"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item openModal2"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item openModal2"><img src="imgs/dummy.jpg" alt=""></a>
+      </div>
+      <!-- モーダル部分 -->
+      <div class="modalArea2"><!-- class名をmodalAreaで統一 -->
+              <div class="modalBg"></div><!-- モーダルの背景-->
+              <div class="modalWrapper"><!-- モーダルの中身 -->
+                  <div class="modalContents">
+                    <h1>contents!4</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  </div>
+                  <div class="closeModal">×</div>
+              </div>
+          </div>
+          <div class="modalArea2">
+            <div class="modalBg"></div><!-- モーダルの背景-->
+            <div class="modalWrapper"><!-- モーダルの中身 -->
+                <div class="modalContents">
+                    <h1>modal contents!5</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                <div class="closeModal">×</div>
+            </div>
+           </div>
+           <div class="modalArea2">
+                <div class="modalBg"></div><!-- モーダルの背景-->
+                <div class="modalWrapper"><!-- モーダルの中身 -->
+                    <div class="modalContents">
+                        <h1>modal contents!6</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa <br>aaaaa<br>aaaaa<br>aaaaa<br>aaaaa<br>aaaaa<br>aaaaa </p>
+                    </div>
+                    <div class="closeModal">×</div>
+                </div>
+           </div>
+          <!-- モーダル部分ここまで -->
+    </section>
+    <section class="slide__wrap" id="tab__photo">
+      <h2>PHOTO</h2>
+      <h3>カメラの扱いはそれなりに</h3>
+      <div class="slide__list" data-aos="fade-up" data-aos-duration="800">
+			  <a href="#" class="slide__item"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item"><img src="imgs/dummy.jpg" alt=""></a>
+      </div>
+    </section>
+    <section class="slide__wrap" id="tab__other">
+      <h2>OTHER</h2>
+      <h3>趣味も含めた制作物</h3>
+      <div class="slide__list" data-aos="fade-up" data-aos-duration="800">
+			  <a href="#" class="slide__item"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item"><img src="imgs/dummy.jpg" alt=""></a>
+			  <a href="#" class="slide__item"><img src="imgs/dummy.jpg" alt=""></a>
+      </div>
+    </section>
+    <section class="slide__wrap" id="tab__about">
+      <h2>ABOUT</h2>
+      <h3>ひととなり。</h3>
+      
+			  <section class="profile" data-aos="fade-up" data-aos-duration="800">
+          <h3>経歴</h3>
+        </section>
+        
+        <section class="enjoy" data-aos="fade-up" data-aos-duration="800">
+          <h3>趣味</h3>
+          
+          <div class="enjoy__list">
+        <ul class="enjoy__item">
+          <li>絵</li>
+          <li>天体観測</li>
+          <li>オーディオ</li>
+          <li>時計</li>
+          <li>文房具</li>
+          <li>インテリア雑貨</li>
+        </ul>
+      </div>
+
+      <div class="enjoy__list">
+        <ul class="enjoy__item">
+          <li>漫画、ゲーム</li>
+          <li>小説</li>
+          <li>B級映画</li>
+          <li>生き物全般</li>
+          <li>アクアリウム</li>
+          <li>デザイン書籍</li>
+        </ul>
+      </div>
+
+      <div class="enjoy__list">
+        <ul class="enjoy__item">
+          <li>バイク</li>
+          <li>アウトドア用品</li>
+          <li>立体造形</li>
+          <li>特殊印刷</li>
+          <li>鉱石</li>
+          <li>クラウドファンディング</li>
+        </ul>
+      </div>
+        </section>
+        
+        <section class="policy" data-aos="fade-up" data-aos-duration="800">
+          <h3>ポリシー</h3>
+        </section>
+      
+      <div class="slide__list">
+        <section class="skill" data-aos="fade-up" data-aos-duration="800">
+          <h3>SKILL</h3>
+          <p>制作ソフト</p>
+          <div class="skill__list">
+            <div class="skill__item">
+              <img src="imgs/ai.svg" alt="" class="skill__img">
+              <p>Illustrator</p>
+              <p>約10年連れ添った謎多き親友</p>
+              <p>習熟度★★★★☆</p>
+            </div>
+            <div class="skill__item">
+              <img src="imgs/ps.svg" alt="" class="skill__img">
+              <p>Photoshop</p>
+              <p>約10年連れ添った謎多き親友その２</p>
+              <p>習熟度★★★☆☆</p>
+            </div>
+            <div class="skill__item">
+              <img src="imgs/xd.svg" alt="" class="skill__img">
+              <p>XD</p>
+              <p>知り合ったばかりでギクシャクしがち</p>
+              <p>習熟度★☆☆☆☆</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!--TOPへ戻るボタン -->
+    <div id="goto_top" style="display: none;">
+      <a href="#">Top</a>
+    </div>
+  </main>
+<footer class="footer">
+		<p><small>Copyright &copy; 2020 Yuta Mizuno</small></p>
+</footer>
+
+<!---------- main.js ----------> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script><!--AOS初期化 -->
+<script src="js/main.js"></script> 
 </body>
 </html>
